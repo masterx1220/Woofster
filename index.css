@@ -1,0 +1,140 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 550px;
+    min-width: 550px;
+    height: 973px;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(95, 88, 88);
+}
+
+nav{
+    height: 81px;
+    display: flex;
+    align-items: center;
+}
+
+.logoContainer{
+    display: flex;
+    margin: 0 0 0 auto;
+}
+
+main{
+    width: 550px
+}
+
+#btnContainer{
+    display: flex;
+    background: #f7f8fc;
+    justify-content: center;
+    margin-top: 21px
+}
+
+button{
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    margin-left: 5px;
+    margin-right: 5px
+   
+}
+
+.cross{
+    background-image:  url('images/hover-cross.png');
+    background-repeat:  no-repeat;
+    background-position:  center
+}
+
+.cross:hover{
+    background-color: #FFE7EF;
+}
+
+.heart{
+    background-image:  url('images/icon-heart.png');
+    background-repeat:  no-repeat;
+    background-position:  center;
+}
+
+.heart:hover{
+    background-color: #DBFFF4;
+}
+
+
+
+.profile{
+    background-image:  url('images/icon-profile.png');
+    background-repeat:  no-repeat;
+    background-position:  center;
+    background-size:  contain;
+    width: 34px;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+.logo{
+    width: 84px
+}
+
+.chat{
+    background-image:  url('images/icon-chat.png');
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size:  contain;
+    width: 35px;
+   margin: auto 0 0 auto;
+   margin-right: 20px;
+   background-color: transparent;
+}
+
+#imageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.dogImage{
+    width: 534px;
+    border-radius: 15px;
+}
+
+.nameAndAge{
+    font-size: 32px;
+    z-index: 1;
+    margin-top: -100px;
+    margin-bottom: 40px
+}
+
+.bio{
+    font-size: 24px;
+}
+
+p{
+    margin: -30px 0 5px 0;
+    z-index: 1;
+    color: white;
+    align-self:  flex-start;
+    margin-left: 30px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.tag{
+    width: 250px;
+    transform:  rotate(-30deg);
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: 3;
+    margin: 0;
+    padding: 0;
+    display: i;
+}
+
+.hide{
+    display: none;
+}
+

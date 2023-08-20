@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <button class=" profile"></button>
+            <div class="logoContainer">
+                <img class="logo" src="images/logo.png">
+            </div>
+            <button class=" chat"></button>
+        </nav>
+        <main id="container">        
+            <!-- <div id="imageContainer">
+                <img class="dogImage" src="images/dog-rex.jpg">
+                <p class="nameAndAge">Rex, 25</p>
+                <p class="bio">Art. Literature. Natural wine. Yoga.</p>
+            </div> -->
+        </main>
+        <section>
+            <div id="btnContainer">
+                <button id="reject-button" class="button cross"></button>
+                <button id="accept-button" class="button heart"></button>
+            </div>
+        </section>
+        <script src="/index.js" type="module"></script>
+    </body>
+</html>
